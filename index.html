@@ -1,1 +1,109 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cattle Creek Outfitters</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #1b1b1b;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(135deg, #5a3a1a, #1b1b1b);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+    p {
+      opacity: 0.9;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .card {
+      background: #2a2a2a;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+    .card div {
+      padding: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      background: #b87333;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>CATTLE CREEK OUTFITTERS</h1>
+  <p>Western • Aztec • Rugged • Timeless</p>
+</header>
+
+<section class="products">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1618354691438-f47f78bfcf09">
+    <div>
+      <h3>Western Aztec Hoodie</h3>
+      <p>$58.00</p>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1618221710640-c0eaaa4c7d21">
+    <div>
+      <h3>Cow Print Trucker Hat</h3>
+      <p>$32.00</p>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1600180758895-83b1f3d6c0c4">
+    <div>
+      <h3>Western Blanket</h3>
+      <p>$74.00</p>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Cattle Creek Outfitters
+</footer>
+
+</body>
+</html>
